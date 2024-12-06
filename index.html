@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health-dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="stlye.css">
+</head>
+<body>
+    <div class="container">
+        <div class ="header">
+            <div class="left">
+                <a href=""> <div><img src="./img/doctor.svg" alt=""> </div> </a>
+                <a href=""> <div><img src="./img/hospital.svg" alt=""></div> </a>
+                <a href=""> <div><img src="./img/water.svg" alt=""></div> </a>
+            </div>
+            <div class="right">
+                <div class="search"><img src="./img/magnify.svg" alt="">
+                    <form action="" method="get"><label for="searchBar"></label> 
+                        <input type="text" placeholder="Search" id="searchBar">
+                    </form>
+                </div>
+                <div class="notifs"><img src="./img/bell.svg" alt="bell"></div>
+                <div class="notifs"><img src="./img/message-badge.svg" alt=""></div>
+                <div><img src="./img/cloud.png" alt=""></div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="title">
+                <a href="">
+                    <img src="img/healthcare.png" alt="logo">
+                    <h1>BetterHealth</h1>
+                </a>
+            </div>
+
+            <div class="links top">
+                <ul>
+                    <li><a href=""><img src="./img/home.svg" alt="Home icon">Home</a></li>
+                    <li><a href=""><img src="./img/account.svg" alt="profile icon">Profile</a></li>
+                    <li><a href=""><img src="./img/message.svg" alt="messeges icon">Messages</a></li>
+                    <li><a href=""><img src="./img/projects.svg" alt="Home icon">Appointments</a></li>
+                    <li><a href=""><img src="./img/clipboard-text-multiple.svg" alt="Home icon">Goals</a></li>
+                    <li><a href=""><img src="./img/order-bool-ascending-variant.svg" alt="Home icon">Prescriptions</a></li>
+                    <li><a href=""><img src="./img/clock.svg" alt="Home icon">Medical History</a></li>
+                </ul>
+            </div>
+
+            <div class="links bottom">
+                <ul>
+                    <li><a href=""><img src="./img/cog.svg" alt="Home icon">Settings</a></li>
+                    <li><a href=""><img src="./img/help-circle.svg" alt="Home icon">Support</a></li>
+                    <li><a href=""><img src="./img/shield-check.svg" alt="Home icon">Privacy</a></li>
+                </ul>
+            </div>
+
+            <div class="logout">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/logout.svg" alt="Logout icon">
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="profile">
+                <div class="left">
+                    <img src="./img/cloud.png" alt="">
+                    <h3>Hi, Adam!</h3>
+                </div>
+                <div class="right">
+                    <button type="button"><div class="content"> <img src="./img/pencil.svg" alt="Upload icon">Create</div></button>
+                    <button type="button"><div class="content"> <img src="./img/share.svg" alt="Upload icon">Share</div></button>
+                    <button type="button"><div class="content"> <img src="./img/upload.svg" alt="Upload icon">Upload</div></button>
+                </div>
+            </div>    
+            <div class="cards-section">
+                <h3>Recommended health tips</h3>
+                <div class="card-holder"> 
+                    <div class="card-content"> <p><strong>Project 1</strong></p> 
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Modi beatae eius dolorem
+                            reprehenderit nulla! Laudantium eos placeat
+                            dignissimos sapiente, nesciunt sit esse aliquid
+                            repellendus.
+                        </p>
+                        <div class="icons"> 
+                            <a href=""><img src="./img/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img src="./img/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img src="./img/delete-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="card-content"> <p><strong>Project 1</strong></p> 
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Modi beatae eius dolorem
+                            reprehenderit nulla! Laudantium eos placeat
+                            dignissimos sapiente, nesciunt sit esse aliquid
+                            repellendus.
+                        </p>
+                        <div class="icons"> 
+                            <a href=""><img src="./img/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img src="./img/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img src="./img/delete-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="card-content"> <p><strong>Project 1</strong></p> 
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Modi beatae eius dolorem
+                            reprehenderit nulla! Laudantium eos placeat
+                            dignissimos sapiente, nesciunt sit esse aliquid
+                            repellendus.
+                        </p>
+                        <div class="icons"> 
+                            <a href=""><img src="./img/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img src="./img/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img src="./img/delete-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="summary">
+                    <h3>Goals Summary</h3>
+                        <div class="content">
+                            <div class="goal one">
+                                <img src="./img/step.png" alt="steps png">
+                                <div class="title">
+                                    <p>Steps</p>
+                                    <p><em>10,000</em></p>
+                                </div>
+                                <div class="progress">
+                                    <p>70%</p>
+                                    <div class="bar">
+                                        <div class="percentage"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="goal two">
+                                <img src="img/calories.png" alt="fire png">
+                                <div class="title">
+                                    <p>Calories limit</p>
+                                    <p><em>2300kcal</em></p>
+                                </div>
+                                <div class="progress">
+                                    <p>43%</p>
+                                    <div class="bar">
+                                        <div class="percentage"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="goal three">
+                                <img src="img/water.png" alt="water png">
+                                <div class="title">
+                                    <p>Water intake</p>
+                                    <p><em>2L</em></p>
+                                </div>
+                                <div class="progress">
+                                    <p>81%</p>
+                                    <div class="bar">
+                                        <div class="percentage"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add left">
+                        <img src="img/plus-circle.svg" alt="Add icon">
+                        <p>Add Goal</p>
+                    </div>
+                    <div class="add right">
+                        <img src="img/plus-circle.svg" alt="Add icon">
+                        <p>Add Stats</p>
+                    </div>
+                    <div class="stats">
+                        <div class="info">
+                            <img src="img/blood-pressure.png" alt="">
+                            <p>120/80 mmHg</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/high-blood-sugar.png" alt="">
+                            <p>80 mg/dL</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/scales.png" alt="">
+                            <p>75 KG</p>
+                        </div>
+                    </div>
+            </div>
+        </div>       
+    </div>
+</body>
+</html>
