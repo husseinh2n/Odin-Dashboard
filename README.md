@@ -1,5 +1,5 @@
 # Health Dashboard
-https://husseinh2n.github.io/Odin-Dashboard/
+[Live Demo](https://husseinh2n.github.io/Odin-Dashboard/) :point_left: 
 
 ## Project Summary
 
